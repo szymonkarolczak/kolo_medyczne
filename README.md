@@ -26,3 +26,50 @@ Laravel
                 login.blade.php -> Strona logowania
                 register.blade.php  -> Strona rejestracji
                 resetpass.blade.php -> Strona resetowania hasła
+
+
+# CSS / JavaScript / Images
+
+Laravel
+    |
+    Public
+        |
+        CSS
+            |
+            style.css
+        |
+        JS
+            |
+            script.js
+        |
+        Img
+
+# Kontrolery 
+
+Laravel
+    |
+    App
+        |
+        Http
+            |
+            Controllers
+                    |
+                    HomeController.php
+                    LoginController.php
+                    RegisterController.php
+                    PassRecoveryController.php
+                    2wayAuthController.php
+                    
+
+---------------------
+#   GIT 
+
+Przed rozpoczęciem pracy wykonujemy komendę "git pull" do pobrania aktualnej wesji projektu
+
+Commity wykonujemy z flagą -m / Opis zaczynamy zawsze z duzej litery / Opisy po angielsku / Do 50 znaków
+
+Po skończonej pracy wrzucamy commity na repozytorium GitHub komendą "git push"
+
+#   END GIT
+---------------------
+
