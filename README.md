@@ -13,7 +13,6 @@ Laravel
         Views
             |
             welcome.blade.php -> Strona główna projektu
-            app.blade.php -> Plik definiujący prjektu
             |
             Admin
                 |
@@ -25,7 +24,17 @@ Laravel
                 |
                 login.blade.php -> Strona logowania
                 register.blade.php  -> Strona rejestracji
-                resetpass.blade.php -> Strona resetowania hasła
+                verify.blade.php -> Strona weryfikacji hasła
+                |
+                Passwords
+                    |
+                    confirm.blade.php -> Potwierdzenie hasła
+                    email.blade.php -> Restart hasła e-mail
+                    reset.blade.php -> Restart hasła    
+            |
+            Layouts
+                |
+                app.blade.php -> Plik główny projektu
 
 
 # CSS / JavaScript / Images
