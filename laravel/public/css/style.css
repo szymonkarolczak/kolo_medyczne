@@ -5,8 +5,26 @@ body{
 
 .btn-primary{
     background-color: #00ADB5;
-    color: #222831;
+    color: #FFF !important;
     border: none;
+}
+
+.btn-secondary{
+    background-color: #FFF;
+    color: #222831 !important;
+    border-radius: 2px;
+    border: solid 2px transparent;
+    padding: .5em 3em;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1.4px;
+    font-weight: 500;
+}
+
+.btn-secondary:hover{
+    background-color: #00ADB5;
+    border: solid 2px #FFF;
+    color: #FFF !important;
 }
 
 #hero{
@@ -84,3 +102,19 @@ body{
 }
 
 /* End back to top button */
+
+/* Custom scrollbar */
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #FFF;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #00ADB5;
+  }
+
+/* End custom scrollbar */
