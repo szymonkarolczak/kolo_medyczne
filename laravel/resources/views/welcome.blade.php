@@ -43,16 +43,16 @@
 
 
 <!-- ============= COMPONENT ============== -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-light shadow-sm bg-white">
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
  <div class="container-fluid">
   <a class="navbar-brand" href="#">Koło medyczne</a>
   <div id="main_nav">
 	<ul class="nav nav-pills ms-auto">
-		<li class="nav-item"><a class="nav-link scrollto" href="#section_1"> Start </a></li>
-		<li class="nav-item"><a class="nav-link scrollto" href="#section_2"> O nas </a></li>
-		<li class="nav-item"><a class="nav-link scrollto" href="#section_3"> Features </a></li>
-		<li class="nav-item"><a class="nav-link scrollto" href="#section_4"> Gdzie jesteśmy </a></li>
-        <li class="nav-item"><a class="nav-link scrollto" href="#section_5"> Kontakt </a></li>
+		<li class="nav-item"><a class="nav-link from-left scrollto" href="#section_1"> Start </a></li>
+		<li class="nav-item"><a class="nav-link from-left scrollto" href="#section_2"> O nas </a></li>
+		<li class="nav-item"><a class="nav-link from-left scrollto" href="#section_3"> Features </a></li>
+		<li class="nav-item"><a class="nav-link from-left scrollto" href="#section_4"> Gdzie jesteśmy </a></li>
+        <li class="nav-item"><a class="nav-link from-left scrollto" href="#section_5"> Kontakt </a></li>
         <li class="nav-item"><a class="nav-link scrollto btn btn-primary" href="#section_5"> Logowanie </a></li>
 	</ul>
   </div> 
@@ -70,7 +70,7 @@
 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
       <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_4FGi6N.json"  background="transparent"  speed="1"  style="width: 600px; height: 600px;"  loop autoplay></lottie-player>
+        <lottie-player class="img-fluid" src="https://assets1.lottiefiles.com/private_files/lf30_4FGi6N.json"  background="transparent"  speed="1"  style="width: 600px; height: 600px;"  loop autoplay></lottie-player>
       </div>
       <div class="col-lg-6" id="hero">
         <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
@@ -82,6 +82,18 @@
       </div>
     </div>
 <!--/ End hero-->
+
+<!-- CTA -->
+
+	<div class="row p-4" id="cta">
+		<div class="col text-center p-4 text-light">
+			<h1 class="p-4">TEST</h1>
+			<h6 class="pb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quisquam ut maxime. Praesentium, a, perferendis, exercitationem dolores velit distinctio temporibus quod sit facere eligendi amet. Voluptate nihil dicta voluptatem maxime!</h6>
+			<a class="btn btn-secondary m-4 btn-lg">Click Me</a>
+		</div>
+	</div>
+
+<!-- End CTA -->
 
 <section>
 
@@ -220,7 +232,7 @@
 <!-- Footer -->
 
 <div class="row p-3" id="footer">
-	<div class="col-md-6">
+	<div class="col-md-6 text-md-center">
 	<h5 >Linki</h5>
 		<ul class="list-unstyled">
 		<li class="p-3">

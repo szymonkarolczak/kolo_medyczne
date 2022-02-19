@@ -1,3 +1,8 @@
+body{
+    --inv: #fff;
+
+}
+
 .btn-primary{
     background-color: #00ADB5;
     color: #222831;
@@ -11,6 +16,50 @@
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
 }
+
+/* Navbar */
+
+.nav-link{
+    color: #00ADB5;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.from-left:before, 
+.from-left:after {
+	top: 0;
+	width: 0;
+	height: 100%;
+}
+
+.from-left:before {
+	right: 0;
+	border: 1px solid var(--inv);
+	border-left: 0;
+	border-right: 0;	
+}
+
+.from-left:after {
+	left: 0;
+}
+
+.from-left:hover:before,
+.from-left:hover:after {
+	width: 100%;
+}
+
+
+/* End navbar */
+
+/* CTA */
+
+#cta{
+    background: #00ADB5;
+}
+
+/* End CTA */
 
 /* Footer */
 
