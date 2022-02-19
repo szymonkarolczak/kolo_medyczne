@@ -82,3 +82,14 @@ Po skończonej pracy wrzucamy commity na repozytorium GitHub komendą "git push"
 #   END GIT
 ---------------------
 
+---------------------
+# Podgląd i operacje na PHP ARTISAN
+
+Podgląd:
+        1. Prawy przcisk myszy na folderze "laravel" i odpalasz terminal 
+        2. W terminalu wklep "php artisan serve"
+        3. Wybierz sobie przeglądarkę
+
+# END
+--------------------
+

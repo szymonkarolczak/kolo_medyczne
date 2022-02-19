@@ -18,20 +18,12 @@
         
         <!--/ End bootstrap -->
 
-        <!-- CSS -->
-        
+        <!-- CSS -->        
         <link rel="stylesheet" href="/css/style.css">
-
         <!-- End CSS -->
 
-        <script>
-
-	    document.addEventListener("DOMContentLoaded", function(){
-		
-		navbar_height = document.querySelector('.navbar').offsetHeight;
-		document.body.style.paddingTop = navbar_height + 'px';
-        }); 
-        </script>
+		<!-- Script -->
+		<script src="/script/main.js" type="text/javascript"></script>
     </head>
     <body data-bs-spy="scroll" data-bs-target="#main_nav" data-bs-offset="200" tabindex="0">
 
@@ -225,7 +217,49 @@
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 		<br><br><br><br>
 </section>
+<!-- Footer -->
 
+<div class="row p-3" id="footer">
+	<div class="col-md-6">
+	<h5 >Linki</h5>
+		<ul class="list-unstyled">
+		<li class="p-3">
+			<a class="text-light text-uppercase" href="#!">Regulamin</a>
+		</li>
+		<li class="p-3">
+			<a class="text-light text-uppercase" href="#!">Polityka prywatności</a>
+		</li>
+		<li class="p-3">
+			<a class="text-light text-uppercase" href="#!">RODO</a>
+		</li>
+		<li class="p-3">
+			<a class="text-light text-uppercase" href="#!">Test</a>
+		</li>
+		</ul>	
+	</div>
+	<div class="col-md-6 text-center">
+		Test
+	</div>
+</div>
+
+<!-- Copyright -->
+<div class="row text-center bg-dark text-light pt-3 font-weight-light">
+	<div class="col">
+		<p>&copy Koło Medyczne 2022. Developed by Tomek & Szymon</p>
+	</div>
+</div>
+
+<!--/ End copyright -->
+
+<!--/ End footer -->
+
+<!-- Back to top button -->
+
+<a class="text-center pt-1" id="to-top">
+	<img src="https://img.icons8.com/ios-filled/30/000000/collapse-arrow.png"/>
+</a>
+
+<!--/ End back to top button -->
 
     </body>
 </html>

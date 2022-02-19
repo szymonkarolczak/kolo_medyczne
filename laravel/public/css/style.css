@@ -11,3 +11,27 @@
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
 }
+
+/* Footer */
+
+#footer{
+    background-color: #00ADB5;
+}
+
+/* End footer */
+
+/* Back to top button */
+
+#to-top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: solid 2px #00ADB5;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+/* End back to top button */
